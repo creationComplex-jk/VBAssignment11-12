@@ -31,9 +31,9 @@ Partial Class frmAttendantFlights
         '
         Me.lstFlights.FormattingEnabled = True
         Me.lstFlights.ItemHeight = 30
-        Me.lstFlights.Location = New System.Drawing.Point(690, 113)
+        Me.lstFlights.Location = New System.Drawing.Point(403, 113)
         Me.lstFlights.Name = "lstFlights"
-        Me.lstFlights.Size = New System.Drawing.Size(239, 394)
+        Me.lstFlights.Size = New System.Drawing.Size(526, 394)
         Me.lstFlights.TabIndex = 1
         '
         'cboAttendants
