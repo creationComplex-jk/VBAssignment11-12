@@ -31,15 +31,15 @@ Partial Class frmPilotFlights
         '
         Me.lstFlights.FormattingEnabled = True
         Me.lstFlights.ItemHeight = 30
-        Me.lstFlights.Location = New System.Drawing.Point(639, 124)
+        Me.lstFlights.Location = New System.Drawing.Point(385, 124)
         Me.lstFlights.Name = "lstFlights"
-        Me.lstFlights.Size = New System.Drawing.Size(239, 394)
+        Me.lstFlights.Size = New System.Drawing.Size(556, 394)
         Me.lstFlights.TabIndex = 1
         '
         'cboPilots
         '
         Me.cboPilots.FormattingEnabled = True
-        Me.cboPilots.Location = New System.Drawing.Point(208, 242)
+        Me.cboPilots.Location = New System.Drawing.Point(107, 242)
         Me.cboPilots.Name = "cboPilots"
         Me.cboPilots.Size = New System.Drawing.Size(121, 38)
         Me.cboPilots.TabIndex = 2
@@ -47,7 +47,7 @@ Partial Class frmPilotFlights
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(223, 209)
+        Me.Label1.Location = New System.Drawing.Point(122, 209)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(76, 30)
         Me.Label1.TabIndex = 4
