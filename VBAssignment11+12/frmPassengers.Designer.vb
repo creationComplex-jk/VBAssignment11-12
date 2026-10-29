@@ -29,16 +29,16 @@ Partial Class frmPassengers
         '
         Me.lstPassengers.FormattingEnabled = True
         Me.lstPassengers.ItemHeight = 30
-        Me.lstPassengers.Location = New System.Drawing.Point(661, 112)
+        Me.lstPassengers.Location = New System.Drawing.Point(119, 117)
         Me.lstPassengers.Name = "lstPassengers"
-        Me.lstPassengers.Size = New System.Drawing.Size(239, 394)
+        Me.lstPassengers.Size = New System.Drawing.Size(309, 454)
         Me.lstPassengers.TabIndex = 0
         '
         'frmPassengers
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 30.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1030, 657)
+        Me.ClientSize = New System.Drawing.Size(545, 693)
         Me.Controls.Add(Me.lstPassengers)
         Me.Font = New System.Drawing.Font("Comic Sans MS", 13.0!)
         Me.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
