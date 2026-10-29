@@ -22,46 +22,46 @@ Partial Class frmMain
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnPassengers = New System.Windows.Forms.Button()
+        Me.btnPilotFlights = New System.Windows.Forms.Button()
+        Me.btnAttendantFlights = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnPassengers
         '
-        Me.Button1.Location = New System.Drawing.Point(78, 64)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(213, 58)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Show Passengers"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnPassengers.Location = New System.Drawing.Point(78, 64)
+        Me.btnPassengers.Name = "btnPassengers"
+        Me.btnPassengers.Size = New System.Drawing.Size(213, 58)
+        Me.btnPassengers.TabIndex = 0
+        Me.btnPassengers.Text = "Show Passengers"
+        Me.btnPassengers.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnPilotFlights
         '
-        Me.Button2.Location = New System.Drawing.Point(78, 175)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(241, 58)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Show Pilots && Flights"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnPilotFlights.Location = New System.Drawing.Point(78, 175)
+        Me.btnPilotFlights.Name = "btnPilotFlights"
+        Me.btnPilotFlights.Size = New System.Drawing.Size(241, 58)
+        Me.btnPilotFlights.TabIndex = 1
+        Me.btnPilotFlights.Text = "Show Pilots && Flights"
+        Me.btnPilotFlights.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnAttendantFlights
         '
-        Me.Button3.Location = New System.Drawing.Point(78, 287)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(329, 58)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Show Attendants && Flights"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnAttendantFlights.Location = New System.Drawing.Point(78, 287)
+        Me.btnAttendantFlights.Name = "btnAttendantFlights"
+        Me.btnAttendantFlights.Size = New System.Drawing.Size(329, 58)
+        Me.btnAttendantFlights.TabIndex = 2
+        Me.btnAttendantFlights.Text = "Show Attendants && Flights"
+        Me.btnAttendantFlights.UseVisualStyleBackColor = True
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 30.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(468, 445)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnAttendantFlights)
+        Me.Controls.Add(Me.btnPilotFlights)
+        Me.Controls.Add(Me.btnPassengers)
         Me.Font = New System.Drawing.Font("Comic Sans MS", 13.0!)
         Me.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.Name = "frmMain"
@@ -70,7 +70,7 @@ Partial Class frmMain
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnPassengers As Button
+    Friend WithEvents btnPilotFlights As Button
+    Friend WithEvents btnAttendantFlights As Button
 End Class

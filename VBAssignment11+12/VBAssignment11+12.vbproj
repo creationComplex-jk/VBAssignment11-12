@@ -73,11 +73,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAttendantFlights.Designer.vb">
+      <DependentUpon>frmAttendantFlights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAttendantFlights.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.vb">
       <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPassengers.Designer.vb">
+      <DependentUpon>frmPassengers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPassengers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPilotFlights.Designer.vb">
+      <DependentUpon>frmPilotFlights.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPilotFlights.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,6 +115,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmAttendantFlights.resx">
+      <DependentUpon>frmAttendantFlights.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
